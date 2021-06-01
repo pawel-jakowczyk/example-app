@@ -1,0 +1,22 @@
+{
+    "name": "pj/framework",
+    "require": {
+        "symfony/routing": "^5.2",
+        "psr/http-server-handler": "^1.0",
+        "symfony/http-foundation": "^5.2",
+        "symfony/psr-http-message-bridge": "^2.1",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "symfony/error-handler": "^5.2",
+        "laminas/laminas-diactoros": "^2.6",
+        "pawel-jakowczyk/routing": "^1.0",
+        "pawel-jakowczyk/middleware": "dev-master",
+        "laminas/laminas-httphandlerrunner": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "pj\\": "src/"
+        }
+    }
+}
