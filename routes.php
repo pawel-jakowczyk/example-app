@@ -3,7 +3,7 @@
 use Symfony\Component\Routing\RouteCollection;
 use PJ\Middleware\MiddlewareRoute;
 use PJ\Middleware\EmptyMiddlewareFactory;
-use PJ\Home\HomeRequestHandlerFactory;
+use PJ\ExampleApp\Home\HomeRequestHandlerFactory;
 
 $routesCollection = new RouteCollection();
 $routesCollection->add(
