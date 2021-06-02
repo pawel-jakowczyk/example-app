@@ -3,7 +3,7 @@
     "description": "",
     "require": {
         "symfony/routing": "^5.2",
-        "pawel-jakowczyk/middleware": "dev-master#628e1a4d465937bf5ca7c8c43d236a2ea68e0a0a",
+        "pawel-jakowczyk/middleware": "dev-master",
         "pawel-jakowczyk/entry-script": "dev-master",
         "pawel-jakowczyk/example-app-home": "dev-master"
     },

@@ -1,12 +1,10 @@
 <?php
 
-use Symfony\Component\Routing\RouteCollection;
-use PJ\Middleware\MiddlewareRoute;
-use PJ\Middleware\EmptyMiddlewareFactory;
 use PJ\ExampleApp\Home\HomeRequestHandlerFactory;
+use PJ\Middleware\EmptyMiddlewareFactory;
+use PJ\Middleware\MiddlewareRoute;
+use PJ\Middleware\MiddlewareRouteCollection;
 
-$routesCollection = new RouteCollection();
-$routesCollection->add(
-    'home', new MiddlewareRoute(new HomeRequestHandlerFactory(), new EmptyMiddlewareFactory(), '/')
+return new MiddlewareRouteCollection(
+    new MiddlewareRoute('home', new HomeRequestHandlerFactory(), new EmptyMiddlewareFactory(), '/'),
 );
-return $routesCollection;
