@@ -7,7 +7,7 @@
         "pawel-jakowczyk/entry-script": "dev-master",
         "pawel-jakowczyk/example-app-home": "dev-master"
     },
-    "repositories": [ls -l
+    "repositories": [
         {
             "type": "vcs",
             "url" : "../entry-script"
