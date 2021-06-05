@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "900d9843f5d745fca71a2f2c9ce0647a",
+    "content-hash": "f7f451c19ffc58fdffd9ee26451c5401",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -92,6 +92,14 @@
                 "psr-17",
                 "psr-7"
             ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-diactoros/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-diactoros/issues",
+                "rss": "https://github.com/laminas/laminas-diactoros/releases.atom",
+                "source": "https://github.com/laminas/laminas-diactoros"
+            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -155,6 +163,14 @@
                 "psr-15",
                 "psr-7"
             ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-httphandlerrunner/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-httphandlerrunner/issues",
+                "rss": "https://github.com/laminas/laminas-httphandlerrunner/releases.atom",
+                "source": "https://github.com/laminas/laminas-httphandlerrunner"
+            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -211,6 +227,12 @@
                 "laminas",
                 "zf"
             ],
+            "support": {
+                "forum": "https://discourse.laminas.dev/",
+                "issues": "https://github.com/laminas/laminas-zendframework-bridge/issues",
+                "rss": "https://github.com/laminas/laminas-zendframework-bridge/releases.atom",
+                "source": "https://github.com/laminas/laminas-zendframework-bridge"
+            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -280,6 +302,10 @@
                 "psr-17",
                 "psr-7"
             ],
+            "support": {
+                "issues": "https://github.com/Nyholm/psr7/issues",
+                "source": "https://github.com/Nyholm/psr7/tree/1.4.0"
+            },
             "funding": [
                 {
                     "url": "https://github.com/Zegnat",
@@ -294,21 +320,33 @@
         },
         {
             "name": "pawel-jakowczyk/entry-script",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "../entry-script",
-                "reference": "0a97b3cbb8d7f742d1f8c010415a8d2ba2a32067"
+                "url": "https://github.com/pawel-jakowczyk/entry-script.git",
+                "reference": "3137f88fbc45d255af81880f3aa21ce15c36b9e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pawel-jakowczyk/entry-script/zipball/3137f88fbc45d255af81880f3aa21ce15c36b9e6",
+                "reference": "3137f88fbc45d255af81880f3aa21ce15c36b9e6",
+                "shasum": ""
             },
             "require": {
                 "laminas/laminas-diactoros": "^2.6",
                 "laminas/laminas-httphandlerrunner": "^1.4",
-                "pawel-jakowczyk/middleware": "dev-master",
+                "pawel-jakowczyk/middleware": "^0.1",
                 "pawel-jakowczyk/routing": "^1.0",
                 "symfony/error-handler": "^5.2"
             },
             "type": "library",
-            "time": "2021-06-02T14:48:32+00:00"
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Entry script for middleware based applications",
+            "support": {
+                "issues": "https://github.com/pawel-jakowczyk/entry-script/issues",
+                "source": "https://github.com/pawel-jakowczyk/entry-script/tree/0.1.0"
+            },
+            "time": "2021-06-05T20:19:08+00:00"
         },
         {
             "name": "pawel-jakowczyk/example-app-home",
@@ -316,34 +354,35 @@
             "source": {
                 "type": "git",
                 "url": "../example-app-home",
-                "reference": "4180a79b590287f42487b3ba236e49771d36d022"
+                "reference": "94544187af3374cbae2d1db68fb1ce3f75109adb"
             },
             "require": {
                 "laminas/laminas-diactoros": "^2.6",
-                "pawel-jakowczyk/middleware": "dev-master#628e1a4d465937bf5ca7c8c43d236a2ea68e0a0a",
+                "pawel-jakowczyk/middleware": "^0.1",
                 "psr/http-server-handler": "^1.0",
                 "psr/http-server-middleware": "^1.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PJ\\ExampleApp\\Home\\": "src/"
                 }
             },
-            "time": "2021-06-02T06:56:36+00:00"
+            "time": "2021-06-05T20:33:14+00:00"
         },
         {
             "name": "pawel-jakowczyk/middleware",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pawel-jakowczyk/middleware.git",
-                "reference": "fdd320b416b980dfa19c407ae486f0ecc07190de"
+                "reference": "2f55bc85fda450b2bd8d28d538bdd009caee035a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pawel-jakowczyk/middleware/zipball/fdd320b416b980dfa19c407ae486f0ecc07190de",
-                "reference": "fdd320b416b980dfa19c407ae486f0ecc07190de",
+                "url": "https://api.github.com/repos/pawel-jakowczyk/middleware/zipball/2f55bc85fda450b2bd8d28d538bdd009caee035a",
+                "reference": "2f55bc85fda450b2bd8d28d538bdd009caee035a",
                 "shasum": ""
             },
             "require": {
@@ -367,7 +406,11 @@
             "license": [
                 "MIT"
             ],
-            "time": "2021-06-02T15:26:02+00:00"
+            "support": {
+                "issues": "https://github.com/pawel-jakowczyk/middleware/issues",
+                "source": "https://github.com/pawel-jakowczyk/middleware/tree/0.1.0"
+            },
+            "time": "2021-06-05T20:13:06+00:00"
         },
         {
             "name": "pawel-jakowczyk/routing",
@@ -404,6 +447,10 @@
                 "MIT"
             ],
             "description": "RoutingMiddleware which implements the Psr MiddlewareInterface",
+            "support": {
+                "issues": "https://github.com/pawel-jakowczyk/routing/issues",
+                "source": "https://github.com/pawel-jakowczyk/routing/tree/1.0.0"
+            },
             "time": "2021-05-19T18:01:07+00:00"
         },
         {
@@ -454,6 +501,10 @@
                 "stream",
                 "uri"
             ],
+            "support": {
+                "issues": "https://github.com/php-http/message-factory/issues",
+                "source": "https://github.com/php-http/message-factory/tree/master"
+            },
             "time": "2015-12-19T14:08:53+00:00"
         },
         {
@@ -506,6 +557,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-factory/tree/master"
+            },
             "time": "2019-04-30T12:38:16+00:00"
         },
         {
@@ -556,6 +610,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -609,6 +666,10 @@
                 "response",
                 "server"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-handler/issues",
+                "source": "https://github.com/php-fig/http-server-handler/tree/master"
+            },
             "time": "2018-10-30T16:46:14+00:00"
         },
         {
@@ -662,6 +723,10 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "issues": "https://github.com/php-fig/http-server-middleware/issues",
+                "source": "https://github.com/php-fig/http-server-middleware/tree/master"
+            },
             "time": "2018-10-30T17:12:04+00:00"
         },
         {
@@ -709,6 +774,9 @@
                 "psr",
                 "psr-3"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
@@ -759,6 +827,9 @@
             ],
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.4.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -825,6 +896,9 @@
             ],
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/error-handler/tree/v5.3.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -895,6 +969,9 @@
             ],
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/http-foundation/tree/v5.3.1"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -972,6 +1049,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.23.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1052,6 +1132,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1136,6 +1219,10 @@
                 "psr-17",
                 "psr-7"
             ],
+            "support": {
+                "issues": "https://github.com/symfony/psr-http-message-bridge/issues",
+                "source": "https://github.com/symfony/psr-http-message-bridge/tree/v2.1.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1223,6 +1310,9 @@
                 "uri",
                 "url"
             ],
+            "support": {
+                "source": "https://github.com/symfony/routing/tree/v5.3.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1308,6 +1398,9 @@
                 "debug",
                 "dump"
             ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/v5.3.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -1329,13 +1422,11 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "pawel-jakowczyk/middleware": 20,
-        "pawel-jakowczyk/entry-script": 20,
         "pawel-jakowczyk/example-app-home": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
