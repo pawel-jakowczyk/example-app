@@ -1,13 +1,13 @@
 {
-    "name": "pj/framework",
-    "description": "",
+    "name": "pj/example-app",
+    "description": "pawel-jakowczyk/entry-script example application",
     "require": {
         "symfony/routing": "^5.2",
         "pawel-jakowczyk/middleware": "dev-master",
         "pawel-jakowczyk/entry-script": "dev-master",
         "pawel-jakowczyk/example-app-home": "dev-master"
     },
-    "repositories": [
+    "repositories": [ls -l
         {
             "type": "vcs",
             "url" : "../entry-script"
