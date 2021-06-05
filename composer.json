@@ -3,15 +3,11 @@
     "description": "pawel-jakowczyk/entry-script example application",
     "require": {
         "symfony/routing": "^5.2",
-        "pawel-jakowczyk/middleware": "dev-master",
-        "pawel-jakowczyk/entry-script": "dev-master",
+        "pawel-jakowczyk/middleware": "^0.1",
+        "pawel-jakowczyk/entry-script": "^0.1",
         "pawel-jakowczyk/example-app-home": "dev-master"
     },
     "repositories": [
-        {
-            "type": "vcs",
-            "url" : "../entry-script"
-        },
         {
             "type": "vcs",
             "url" : "../example-app-home"
