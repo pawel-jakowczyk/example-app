@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7f451c19ffc58fdffd9ee26451c5401",
+    "content-hash": "21b851448ced73c502584c31574f469d",
     "packages": [
         {
             "name": "laminas/laminas-diactoros",
@@ -350,11 +350,17 @@
         },
         {
             "name": "pawel-jakowczyk/example-app-home",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "../example-app-home",
-                "reference": "94544187af3374cbae2d1db68fb1ce3f75109adb"
+                "url": "https://github.com/pawel-jakowczyk/example-app-home.git",
+                "reference": "99f645a25f678a5b143bcd277151ccd5e0b9095f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pawel-jakowczyk/example-app-home/zipball/99f645a25f678a5b143bcd277151ccd5e0b9095f",
+                "reference": "99f645a25f678a5b143bcd277151ccd5e0b9095f",
+                "shasum": ""
             },
             "require": {
                 "laminas/laminas-diactoros": "^2.6",
@@ -362,14 +368,22 @@
                 "psr/http-server-handler": "^1.0",
                 "psr/http-server-middleware": "^1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PJ\\ExampleApp\\Home\\": "src/"
                 }
             },
-            "time": "2021-06-05T20:33:14+00:00"
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Example RequestHandler and RequestHandlerFactory",
+            "support": {
+                "issues": "https://github.com/pawel-jakowczyk/example-app-home/issues",
+                "source": "https://github.com/pawel-jakowczyk/example-app-home/tree/0.1.0"
+            },
+            "time": "2021-06-06T15:11:45+00:00"
         },
         {
             "name": "pawel-jakowczyk/middleware",
@@ -1421,9 +1435,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "pawel-jakowczyk/example-app-home": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
